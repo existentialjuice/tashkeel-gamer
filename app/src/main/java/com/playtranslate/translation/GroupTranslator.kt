@@ -257,7 +257,11 @@ class GroupTranslator(
             }
             else -> readerTranslationsToTake(groupTexts, reader, target, onProgress)
         }
-        if (reader == null || provided.isEmpty()) return translateThroughCache(groupTexts, target)
+        if (reader == null || provided.isEmpty()) {
+            return translateThroughCache(groupTexts, target).map { result ->
+                result.copy(text = applyTashkeelIfArabicTarget(result.text, target))
+            }
+        }
 
         val taken = takeReaderTranslations(groupTexts, provided, reader, target)
         val rest = groupTexts.indices.filter { taken[it] == null }
@@ -265,7 +269,9 @@ class GroupTranslator(
         val restTranslated =
             if (rest.isEmpty()) emptyList() else translateThroughCache(rest.map { groupTexts[it] }, target)
         val next = restTranslated.iterator()
-        return taken.map { it ?: next.next() }
+        return taken.map { it ?: next.next() }.map { result ->
+            result.copy(text = applyTashkeelIfArabicTarget(result.text, target))
+        }
     }
 
     /** What [reader], which the caller has checked to be for the current
@@ -537,7 +543,16 @@ class GroupTranslator(
             // the shared "zh" cache keeps storing Simplified for every variant.
             .map { it.copy(text = target.localize(it.text)) }
     }
+    private suspend fun applyTashkeelIfArabicTarget(
+        text: String,
+        target: TranslationTarget,
+    ): String {
+        if (target.target != "ar") return text
+        if (target.source == "ar") return text
+        if (text.isBlank()) return text
 
+        return TashkeelClient.process(text)
+    }
     /** On-demand translation for a single text string (used by edit overlay, drag-sentence, etc.). */
     suspend fun translateOnce(text: String): GroupTranslation =
         translateOnce(text, snapshotTranslationTarget())
@@ -554,11 +569,24 @@ class GroupTranslator(
     ): GroupTranslation =
         translateOnce(text, snapshotTranslationTarget(sourceLangId).copy(target = targetLang))
 
-    private suspend fun translateOnce(text: String, target: TranslationTarget): GroupTranslation {
-        val outcome = translate(text, target)
-        onDegraded(outcome.kind)
-        return GroupTranslation(target.localize(outcome.text), outcome.note, outcome.backendDisplayName)
-    }
+    private suspend fun translateOnce(
+    text: String,
+    target: TranslationTarget
+): GroupTranslation {
+    val outcome = translate(text, target)
+    onDegraded(outcome.kind)
+
+    val processedText = applyTashkeelIfArabicTarget(
+        outcome.text,
+        target
+    )
+
+    return GroupTranslation(
+        target.localize(processedText),
+        outcome.note,
+        outcome.backendDisplayName
+    )
+}
 
     /**
      * Active cooldown for the floating-icon pill while the degradation

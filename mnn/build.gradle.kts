@@ -62,7 +62,6 @@ android {
             path("src/main/cpp/CMakeLists.txt")
             // Matches :llama. 3.22.1 ships with the Android SDK CMake;
             // a clean clone gets the build tool without a separate install.
-            version = "3.22.1"
         }
     }
     compileOptions {

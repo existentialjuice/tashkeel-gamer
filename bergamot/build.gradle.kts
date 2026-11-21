@@ -43,7 +43,6 @@ android {
         cmake {
             path("src/main/cpp/CMakeLists.txt")
             // 3.22.1 ships with the Android SDK CMake (same as :mnn).
-            version = "3.22.1"
         }
     }
     compileOptions {
