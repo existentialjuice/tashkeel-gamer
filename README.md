@@ -11,7 +11,7 @@ An Android screen translator for games, visual novels, manga, and other on-scree
 
 ### Dual-screen Final Fantasy IV gameplay
 
-![Tashkeel Gamer running alongside Final Fantasy IV](docs/images/ff4-dual-screen.jpg)
+![Tashkeel Gamer running alongside Final Fantasy IV](docs/images/tashkeel-gamer-screenshot.jpg)
 
 ## Features
 

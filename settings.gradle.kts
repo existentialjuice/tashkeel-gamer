@@ -11,7 +11,7 @@ pluginManagement {
 // lets anyone build without needing to install a specific JDK first — Gradle
 // will fetch one from foojay.io on demand and cache it under ~/.gradle/jdks.
 plugins {
-    id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
+    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
