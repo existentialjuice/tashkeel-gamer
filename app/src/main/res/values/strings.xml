@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    PlayTranslate user-facing strings.
+    Tashkeel Gamer user-facing strings.
 
     Conventions for translators:
       • <xliff:g id="..." example="...">…</xliff:g> wraps content that
@@ -24,7 +24,7 @@
 
     <!-- Brand name of the app. Displayed in the launcher, system Settings,
          the notification shade, and many in-app surfaces. Not translated. -->
-    <string name="app_name" translatable="false">PlayTranslate</string>
+    <string name="app_name" translatable="false">Tashkeel Gamer</string>
 
     <!-- ═══════════════════════════════════════════════════════════════
          ACTIONS — generic button labels reused in multiple places.
@@ -43,11 +43,11 @@
          in-app prompt that explains the permission.
          ═══════════════════════════════════════════════════════════════ -->
 
-    <!-- Description shown under "PlayTranslate" in the system
+    <!-- Description shown under "Tashkeel Gamer" in the system
          Accessibility Settings list. Must reassure users that the app
          does NOT read any UI content, monitor input, or access personal
          data — this is required by the Play Store policy disclosure. -->
-    <string name="accessibility_service_description"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> uses the Accessibility Service to take screenshots of the game screen and show a floating overlay icon. No UI content, input events, or personal data are read or monitored.</string>
+    <string name="accessibility_service_description"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> uses the Accessibility Service to take screenshots of the game screen and show a floating overlay icon. No UI content, input events, or personal data are read or monitored.</string>
 
     <!-- One-line summary shown next to the app name in the Accessibility
          Settings list, ABOVE the longer description. -->
@@ -62,7 +62,7 @@
          requested (dual-screen capture) and reassures about data
          handling. The trailing line is a step-by-step nav path through
          Android Settings; keep the arrows (→) and the app name. -->
-    <string name="accessibility_dialog_message"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> needs the Accessibility permission to capture screenshots of the game screen on the top display while staying open on the bottom display.\n\n<xliff:g id="app_name2" example="PlayTranslate">PlayTranslate</xliff:g> does not read any UI content, monitor input, or access any personal data — it only takes screenshots when you tap Translate or start live mode.\n\nGo to Settings → Accessibility → Downloaded apps → <xliff:g id="app_name3" example="PlayTranslate">PlayTranslate</xliff:g> → Enable.</string>
+    <string name="accessibility_dialog_message"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> needs the Accessibility permission to capture screenshots of the game screen on the top display while staying open on the bottom display.\n\n<xliff:g id="app_name2" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> does not read any UI content, monitor input, or access any personal data — it only takes screenshots when you tap Translate or start live mode.\n\nGo to Settings → Accessibility → Downloaded apps → <xliff:g id="app_name3" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> → Enable.</string>
 
     <!-- Positive button on the Accessibility-needed dialog: opens the
          system Accessibility Settings activity. -->
@@ -70,16 +70,16 @@
 
     <!-- Status line shown on the main screen when the user tries to
          translate before enabling Accessibility. -->
-    <string name="status_accessibility_needed">Enable <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> in Accessibility Settings first</string>
+    <string name="status_accessibility_needed">Enable <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> in Accessibility Settings first</string>
 
     <!-- ═══════════════════════════════════════════════════════════════
          QUICK SETTINGS TILE (Android system status-bar tile)
          ═══════════════════════════════════════════════════════════════ -->
 
-    <!-- Label of the PlayTranslate tile in the Android Quick Settings
+    <!-- Label of the Tashkeel Gamer tile in the Android Quick Settings
          panel (the pull-down from the status bar). Kept identical to
          the app name so users recognise it. -->
-    <string name="tile_label" translatable="false">PlayTranslate</string>
+    <string name="tile_label" translatable="false">Tashkeel Gamer</string>
 
     <!-- Subtitle of the Quick Settings tile when Accessibility is
          disabled — invites the user to enable it. -->
@@ -140,18 +140,18 @@
 
     <!-- Title line of the persistent notification while the
          foreground service is running. -->
-    <string name="notif_title"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> is active</string>
+    <string name="notif_title"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> is active</string>
 
     <!-- Body line of the persistent notification — tapping it returns
          to the app. -->
-    <string name="notif_text">Tap to return to <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g></string>
+    <string name="notif_text">Tap to return to <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g></string>
 
     <!-- ═══════════════════════════════════════════════════════════════
          ONBOARDING (first-run permission wizard)
          ═══════════════════════════════════════════════════════════════ -->
 
     <!-- Welcome card title on the first-run onboarding screen. -->
-    <string name="onboarding_welcome_title">Welcome to <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g>!</string>
+    <string name="onboarding_welcome_title">Welcome to <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g>!</string>
 
     <!-- Tagline shown under the welcome title. "play or read" covers
          games, comics, visual novels, web pages — keep activity verbs,
@@ -217,12 +217,12 @@
 
     <!-- Subtitle of reassurance row 3 (status bar icon) on the
          notification-permission onboarding card; may wrap to two lines. -->
-    <string name="onboarding_notif_row_status_sub">A quiet indicator that <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> is running</string>
+    <string name="onboarding_notif_row_status_sub">A quiet indicator that <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> is running</string>
 
     <!-- Hint shown on the accessibility-permission card directing the
          user where to look in the system Accessibility list. <b> is
          rendered as bold. -->
-    <string name="onboarding_a11y_hint">Look for <b><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g></b></string>
+    <string name="onboarding_a11y_hint">Look for <b><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g></b></string>
 
     <!-- The Android system-settings toggle name for the overlay
          permission — match the OS translation of that setting. Embedded
@@ -239,7 +239,7 @@
     <!-- Lead-in line above the benefit rows on the "Display over other
          apps" overlay-permission card. <b> renders as bold; preserve the
          markup exactly. -->
-    <string name="onboarding_a11y_intro"><b><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g></b> needs to display over other apps to:</string>
+    <string name="onboarding_a11y_intro"><b><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g></b> needs to display over other apps to:</string>
 
     <!-- Title of benefit row 1 (translate) on the overlay-permission
          onboarding card, rendered as an onboarding_feature_row cell. -->
@@ -255,7 +255,7 @@
 
     <!-- Subtitle of benefit row 2 (quick access menu overlay) on the
          overlay-permission onboarding card; may wrap to two lines. -->
-    <string name="onboarding_a11y_row_menu_sub">Access <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> features without switching apps</string>
+    <string name="onboarding_a11y_row_menu_sub">Access <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> features without switching apps</string>
 
     <!-- Title of benefit row 3 (word lookup) on the overlay-permission
          onboarding card. -->
@@ -290,7 +290,7 @@
          were not checked, so the line says "if" and gives the menu no
          position (also top left in RTL). One sentence: it rides the
          280dp OverlayAlert card as well as the system dialogs. -->
-    <string name="a11y_restricted_settings_addendum">On Android 13 and later, if the switch is greyed out, tap it once, then open <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g>\'s App info page, tap the ⋮ menu and choose Allow restricted settings.</string>
+    <string name="a11y_restricted_settings_addendum">On Android 13 and later, if the switch is greyed out, tap it once, then open <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g>\'s App info page, tap the ⋮ menu and choose Allow restricted settings.</string>
 
     <!-- ═══════════════════════════════════════════════════════════════
          WORD DETAIL (bottom-sheet shown when tapping a tokenized word)
@@ -737,7 +737,7 @@
 
     <!-- Footer hint under the Capture Display picker explaining that
          the display the user is currently viewing is filtered out. -->
-    <string name="settings_capture_display_footer">Select one or more screens. The screen you\'re viewing <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> on is skipped.</string>
+    <string name="settings_capture_display_footer">Select one or more screens. The screen you\'re viewing <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> on is skipped.</string>
 
     <!-- ═══════════════════════════════════════════════════════════════
          DEEPL — settings hints and warnings.  DeepL itself is a brand;
@@ -820,7 +820,7 @@
     <!-- Status message in the in-app panel while live mode is paused because the user's chosen single-app capture target left fullscreen (split screen / freeform); clears itself. -->
     <string name="error_single_app_not_fullscreen">Translation is paused. The captured app isn\'t filling the screen. It resumes when the app is fullscreen again.</string>
     <!-- Status message in the in-app panel when every captured frame is black because something on screen sets FLAG_SECURE (banking apps, DRM video); live mode keeps polling.
-         Two traps for translators, both of which this wording exists to dodge: it renders inside PlayTranslate's OWN panel, so "this app" reads as PlayTranslate, and its emitter (ReconcilerLiveMode) also runs when the user shared the WHOLE SCREEN, where there is no single captured app to name. Say what is protected, not who is blocking. -->
+         Two traps for translators, both of which this wording exists to dodge: it renders inside Tashkeel Gamer's OWN panel, so "this app" reads as Tashkeel Gamer, and its emitter (ReconcilerLiveMode) also runs when the user shared the WHOLE SCREEN, where there is no single captured app to name. Say what is protected, not who is blocking. -->
     <string name="error_capture_blocked_secure">Nothing can be read. Protected content blocks screen capture.</string>
     <!-- Label on the small on-screen chip shown for ~1.5s at live-mode start while the capture stream is being classified; sits beside a small colored checker pattern. The view measures its own localized label (StreamKindProbe.onMeasure), so there is no width limit: prefer the precise word over a short one. -->
     <string name="probe_initializing">Initializing…</string>
@@ -946,8 +946,8 @@
          about the sentence on screen (the user asked for something else,
          such as general knowledge or writing). It says what that service
          does answer. %1$s = the display name of the service that declined
-         (e.g. PlayTranslate Cloud). -->
-    <string name="ask_out_of_scope"><xliff:g id="service_name" example="PlayTranslate Cloud">%1$s</xliff:g> only answers questions about this sentence, such as its meaning, grammar or vocabulary.</string>
+         (e.g. Tashkeel Gamer Cloud). -->
+    <string name="ask_out_of_scope"><xliff:g id="service_name" example="Tashkeel Gamer Cloud">%1$s</xliff:g> only answers questions about this sentence, such as its meaning, grammar or vocabulary.</string>
 
     <!-- First line of the Ask section's answer area when no AI model
          answered the question. A second line may follow it with the reason
@@ -1056,7 +1056,7 @@
 
     <!-- ═══════════════════════════════════════════════════════════════
          CAPTURE LIFECYCLE — power button + state strings shown on the
-         PlayTranslate on/off card at the top of Settings. The card
+         Tashkeel Gamer on/off card at the top of Settings. The card
          title is the app name (stable across states); the ON/OFF badge
          + switch track the session intent; the SUBTITLE tracks capture
          permission truth (held / not held / held-then-lost), which is
@@ -1100,7 +1100,7 @@
     <!-- ═══════════════════════════════════════════════════════════════
          AUDIO RECORDING row (Settings → top section) + floating menu
          bar. Recording is a property of the session — it starts and
-         stops with PlayTranslate (the feature switch lives in Anki
+         stops with Tashkeel Gamer (the feature switch lives in Anki
          settings). The ONLY audio-specific verb is the repair: re-arm
          the capture consent the session's audio rides on. The Settings
          row keeps one constant title; its trailing record glyph is the
@@ -1136,7 +1136,7 @@
     <string name="mp_overlay_permission_title">Display over other apps</string>
 
     <!-- Body of the overlay-permission prompt. -->
-    <string name="mp_overlay_permission_message"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> needs permission to display over other apps so the floating game-screen controls can show on top of your game.</string>
+    <string name="mp_overlay_permission_message"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> needs permission to display over other apps so the floating game-screen controls can show on top of your game.</string>
 
     <!-- Positive button — opens the system Overlay Settings. -->
     <string name="mp_overlay_permission_button">Open settings</string>
@@ -1215,7 +1215,7 @@
 
     <!-- Body of the same alert. The trailing nav path uses → as the
          separator; keep the app name. -->
-    <string name="overlay_icon_a11y_required_message">The floating overlay icon requires the Accessibility permission to draw on the game screen.\n\nGo to Settings → Accessibility → Downloaded apps → <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> → Enable.</string>
+    <string name="overlay_icon_a11y_required_message">The floating overlay icon requires the Accessibility permission to draw on the game screen.\n\nGo to Settings → Accessibility → Downloaded apps → <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> → Enable.</string>
 
     <!-- Title of the alert shown when the accessibility service is enabled
          in system Settings but Android has stopped it and will not rebind
@@ -1227,13 +1227,13 @@
 
     <!-- Body of the same alert. Names no cause, since none is established
          for any one phone. -->
-    <string name="a11y_stuck_message">Accessibility is enabled for <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g>, but Android has stopped the service and will not restart it on its own. Your device may report the app as malfunctioning in accessibility settings.\n\nTo fix it, turn the service off and back on in your accessibility settings.</string>
+    <string name="a11y_stuck_message">Accessibility is enabled for <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g>, but Android has stopped the service and will not restart it on its own. Your device may report the app as malfunctioning in accessibility settings.\n\nTo fix it, turn the service off and back on in your accessibility settings.</string>
 
     <!-- Extra paragraph appended to the same alert on Xiaomi devices: the
          two settings of the Fix disappearing icon page's Xiaomi cards
          (sources in their comments). Neither entry's label is quoted,
          since both vary by MIUI / HyperOS version. -->
-    <string name="a11y_stuck_message_xiaomi">On Xiaomi devices, also allow autostart for <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> and set its battery use to No restrictions in the app\'s system settings. Without these, the system may keep stopping the service.</string>
+    <string name="a11y_stuck_message_xiaomi">On Xiaomi devices, also allow autostart for <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> and set its battery use to No restrictions in the app\'s system settings. Without these, the system may keep stopping the service.</string>
 
     <!-- ═══════════════════════════════════════════════════════════════
          ACCESSIBILITY-REQUIRED ALERT (capture-display picker, hotkeys,
@@ -1246,16 +1246,16 @@
 
     <!-- Body shown when the user tried to change which display(s) are
          captured. -->
-    <string name="a11y_required_displays_message">Changing screens or translating multiple screens at once requires the Accessibility permission. It lets <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> capture any display, not just the main one.</string>
+    <string name="a11y_required_displays_message">Changing screens or translating multiple screens at once requires the Accessibility permission. It lets <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> capture any display, not just the main one.</string>
 
     <!-- Body shown when the user tried to set a global hotkey. -->
-    <string name="a11y_required_hotkey_message">Setting hotkeys requires the Accessibility permission. It lets <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> detect the keys you press while gaming.</string>
+    <string name="a11y_required_hotkey_message">Setting hotkeys requires the Accessibility permission. It lets <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> detect the keys you press while gaming.</string>
 
     <!-- Body shown when the user toggled the "Enhanced auto-translate"
          row on. Deliberately vague — sells the experience improvement
          without listing the underlying mechanisms (button-press
          refresh, touch-through overlays, hotkeys, multi-display). -->
-    <string name="a11y_required_enhanced_message"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> uses these enhanced controls to improve the auto-translate experience.</string>
+    <string name="a11y_required_enhanced_message"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> uses these enhanced controls to improve the auto-translate experience.</string>
 
     <!-- Shown on API 29 (Android 10) when the user taps an accessibility-gated
          feature (multi-display, hotkeys, enhanced auto-translate). The
@@ -1306,7 +1306,7 @@
     <string name="anki_not_installed_title">Create flashcard for review</string>
 
     <!-- Body of the AnkiDroid-not-installed dialog. -->
-    <string name="anki_not_installed_message">Save words you discover while playing and review them later.\n\n<xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> can save translated sentences, vocabulary, and screenshots directly to <xliff:g id="brand_ankidroid" example="AnkiDroid">AnkiDroid</xliff:g>, a free spaced-repetition flashcard app.</string>
+    <string name="anki_not_installed_message">Save words you discover while playing and review them later.\n\n<xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> can save translated sentences, vocabulary, and screenshots directly to <xliff:g id="brand_ankidroid" example="AnkiDroid">AnkiDroid</xliff:g>, a free spaced-repetition flashcard app.</string>
 
     <!-- Positive button on the not-installed dialog — opens the Play
          Store listing. -->
@@ -1320,7 +1320,7 @@
     <string name="anki_permission_rationale_title"><xliff:g id="brand_ankidroid" example="AnkiDroid">AnkiDroid</xliff:g> permission needed</string>
 
     <!-- Body of the permission-rationale dialog. -->
-    <string name="anki_permission_rationale_message">To add flashcards to <xliff:g id="brand_anki" example="Anki">Anki</xliff:g>, <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> needs permission to access <xliff:g id="brand_ankidroid" example="AnkiDroid">AnkiDroid</xliff:g>.\n\nTap Continue to grant this permission.</string>
+    <string name="anki_permission_rationale_message">To add flashcards to <xliff:g id="brand_anki" example="Anki">Anki</xliff:g>, <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> needs permission to access <xliff:g id="brand_ankidroid" example="AnkiDroid">AnkiDroid</xliff:g>.\n\nTap Continue to grant this permission.</string>
 
     <!-- Generic Continue button (also used elsewhere). -->
     <string name="btn_continue">Continue</string>
@@ -1581,7 +1581,7 @@
 
     <!-- Right-side text when no card type has been picked — falls back
          to the bundled default template. -->
-    <string name="anki_card_type_row_empty">Default (<xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g>)</string>
+    <string name="anki_card_type_row_empty">Default (<xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g>)</string>
 
     <!-- Sheet title for the card-type picker. -->
     <string name="anki_card_type_pick_title">Select Card Type</string>
@@ -1626,7 +1626,7 @@
 
     <!-- Error alert shown when the note type's FIRST field is mapped
          but its source produced no value for this card, or (for the
-         built-in PlayTranslate note types) the first field was renamed
+         built-in Tashkeel Gamer note types) the first field was renamed
          in AnkiDroid. Shown in a full alert, so length is fine.
          %1$s = the AnkiDroid field name, as above. -->
     <string name="anki_first_field_empty">“<xliff:g id="field_name" example="Key">%1$s</xliff:g>” is empty on this card. <xliff:g id="brand_anki" example="Anki">Anki</xliff:g> uses the first field to identify the note, so it needs a value on every card.</string>
@@ -1651,7 +1651,7 @@
     <!-- ═══════════════════════════════════════════════════════════════
          CONTENT SOURCE LABELS — items in the "Map field" dropdown.
          Each entry is a name + a "*_desc" subtitle that includes a
-         concrete example of the value PlayTranslate writes into the
+         concrete example of the value Tashkeel Gamer writes into the
          field.  The example strings (after "Example:") are language
          samples in Japanese — they illustrate the shape of the output;
          translators may leave them as-is (the value at runtime is the
@@ -1720,7 +1720,7 @@
 
     <!-- Full words-table HTML (for sentence cards). -->
     <string name="anki_content_words_table">Words list (sentence cards)</string>
-    <string name="anki_content_words_table_desc">A formatted list of every word <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> detected in the sentence, with readings and definitions.</string>
+    <string name="anki_content_words_table_desc">A formatted list of every word <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> detected in the sentence, with readings and definitions.</string>
 
     <!-- The Yomitan pitch/frequency options below appear in the Anki “Map field” content-source picker dialog (Japanese mining notes); each pair is one option’s label plus its description line. “Lapis”/“JPMN” are community card-template brands; ★ is the star glyph (U+2605). -->
 
@@ -1871,15 +1871,15 @@
     <string name="deepl_display_name" translatable="false">DeepL</string>
     <!-- The app's own cloud service (OCR and translation on a server);
          a product name, not translated. -->
-    <string name="pt_cloud_display_name" translatable="false">PlayTranslate Cloud</string>
+    <string name="pt_cloud_display_name" translatable="false">Tashkeel Gamer Cloud</string>
     <!-- The title form of pt_cloud_display_name while the service is in
-         alpha, on four surfaces only: the PlayTranslate Cloud page's toolbar
+         alpha, on four surfaces only: the Tashkeel Gamer Cloud page's toolbar
          title, the CONFIGURE cell, the Translation services row and the
          Capture &amp; overlay row. Every sentence that names the service, the
          quick-menu strip header, the OCR picker's entry and the error pills
          keep the bare brand (pt_cloud_display_name / PtCloudService.DISPLAY_NAME).
          The brand stays as written; "(Alpha)" is translated. -->
-    <string name="pt_cloud_display_name_alpha"><xliff:g id="service" example="PlayTranslate Cloud">PlayTranslate Cloud</xliff:g> (Alpha)</string>
+    <string name="pt_cloud_display_name_alpha"><xliff:g id="service" example="Tashkeel Gamer Cloud">Tashkeel Gamer Cloud</xliff:g> (Alpha)</string>
     <!-- Cell title + provider-preset pill label for an OpenAI-compatible
          service pointed at a user-entered URL (LM Studio, OpenRouter, …). -->
     <string name="llm_backend_preset_custom">Custom</string>
@@ -2752,29 +2752,29 @@
     <!-- Translation error pill: the service is switched off (its server
          is stopped), so it answered that nothing is running there; it
          works again once it is started.  %1$s = service name. -->
-    <string name="translation_error_not_running"><xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g>: Not running</string>
+    <string name="translation_error_not_running"><xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g>: Not running</string>
     <!-- Translation error pill: the user's free trial of the service has run
          out, so its server refuses requests until the user joins (pays for a
-         membership).  %1$s = service name (PlayTranslate Cloud, a product
+         membership).  %1$s = service name (Tashkeel Gamer Cloud, a product
          name). -->
-    <string name="translation_error_trial_ended"><xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g>: Free trial ended</string>
+    <string name="translation_error_trial_ended"><xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g>: Free trial ended</string>
     <!-- Translation error pill: the user's account with the service has no
          active membership (it lapsed, or there never was one), so its server
          refuses requests until the user joins again.  Not about credit left
-         on the account.  %1$s = service name (PlayTranslate Cloud, a product
+         on the account.  %1$s = service name (Tashkeel Gamer Cloud, a product
          name). -->
-    <string name="translation_error_membership_inactive"><xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g>: Membership inactive</string>
+    <string name="translation_error_membership_inactive"><xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g>: Membership inactive</string>
     <!-- Translation error pill: the user's account with the service has not
          accepted the service's current terms of use and privacy notice (they
          are new, or they changed), so its server refuses requests until the
          user reads and accepts them on the service's settings page.  Not
-         about payment or the membership.  %1$s = service name (PlayTranslate
+         about payment or the membership.  %1$s = service name (Tashkeel Gamer
          Cloud, a product name). -->
-    <string name="translation_error_terms_required"><xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g>: Terms not accepted</string>
+    <string name="translation_error_terms_required"><xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g>: Terms not accepted</string>
     <!-- Translation error pill: the service has shut down for good, so its
          server refuses every request; it will not come back by itself.
-         %1$s = service name (PlayTranslate Cloud, a product name). -->
-    <string name="translation_error_closed"><xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g>: Service closed</string>
+         %1$s = service name (Tashkeel Gamer Cloud, a product name). -->
+    <string name="translation_error_closed"><xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g>: Service closed</string>
     <!-- Title of the confirm shown when the user taps a translation error
          pill's gear while an Anki card they are building over the game is
          open: opening the settings closes that card, and it can't be
@@ -2980,7 +2980,7 @@
 
     <!-- Last row of the floating-icon menu's expanded settings panel; opens
          the full app. %1$s is the app name. -->
-    <string name="floating_menu_panel_open_app">Open <xliff:g id="app_name" example="PlayTranslate">%1$s</xliff:g></string>
+    <string name="floating_menu_panel_open_app">Open <xliff:g id="app_name" example="Tashkeel Gamer">%1$s</xliff:g></string>
 
     <!-- Instruction pill shown at the bottom of the floating-icon menu
          while no custom region is active, prompting the user to
@@ -3234,11 +3234,11 @@
 
     <!-- Title of the dialog shown at cold launch when a previous-session
          crash report was found on disk. -->
-    <string name="crash_dialog_title"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> crashed previously</string>
+    <string name="crash_dialog_title"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> crashed previously</string>
 
     <!-- Body of the crash-report dialog — discloses what's in the
          report. -->
-    <string name="crash_dialog_message">Send the crash report to the developer? It includes a stack trace, recent app logs, and any text <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> has recently OCR\'d or looked up. No account info.</string>
+    <string name="crash_dialog_message">Send the crash report to the developer? It includes a stack trace, recent app logs, and any text <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> has recently OCR\'d or looked up. No account info.</string>
 
     <!-- "Send" button on the crash-report dialog. -->
     <string name="crash_dialog_send">Send</string>
@@ -3251,9 +3251,9 @@
     <string name="crash_dialog_later">Later</string>
 
     <!-- Crash-report email subject line. %1$s = the app version
-         (e.g. "2.2.0").  "PlayTranslate" is the app name; do not
+         (e.g. "2.2.0").  "Tashkeel Gamer" is the app name; do not
          translate. -->
-    <string name="crash_email_subject"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> crash – v<xliff:g id="version" example="2.2.0">%1$s</xliff:g></string>
+    <string name="crash_email_subject"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> crash – v<xliff:g id="version" example="2.2.0">%1$s</xliff:g></string>
 
     <!-- Crash-report email body. -->
     <string name="crash_email_body">Steps to reproduce:\n\n(Optional — describe what you were doing when this happened.)\n\nDevice info is included in the attached file.</string>
@@ -3272,7 +3272,7 @@
 
     <!-- Body of the new-version dialog.  %1$s = the new version tag
          (e.g. "v2.3.0"). -->
-    <string name="update_dialog_message"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> <xliff:g id="version_tag" example="v2.3.0">%1$s</xliff:g> is available on <xliff:g id="brand_github" example="GitHub">GitHub</xliff:g>.</string>
+    <string name="update_dialog_message"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> <xliff:g id="version_tag" example="v2.3.0">%1$s</xliff:g> is available on <xliff:g id="brand_github" example="GitHub">GitHub</xliff:g>.</string>
 
     <!-- "View release notes" button on the update dialog (opens the GitHub
          release page in a browser). -->
@@ -3296,9 +3296,9 @@
          metered (mobile data). -->
     <string name="update_dialog_metered_note">You\'re on a metered connection.</string>
 
-    <!-- Title of the download-progress popup. "PlayTranslate" is the app
+    <!-- Title of the download-progress popup. "Tashkeel Gamer" is the app
          name; do not translate. -->
-    <string name="update_progress_title">Updating <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g></string>
+    <string name="update_progress_title">Updating <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g></string>
 
     <!-- Byte progress line: received / total. Locale-neutral. -->
     <string name="update_progress_downloading" translatable="false">%1$s / %2$s</string>
@@ -3312,9 +3312,9 @@
     <string name="update_unknown_sources_title">Allow installing updates</string>
 
     <!-- Body of the unknown-sources explainer. Warns that Android may
-         restart the app when the permission is toggled. "PlayTranslate" is
+         restart the app when the permission is toggled. "Tashkeel Gamer" is
          the app name; do not translate. -->
-    <string name="update_unknown_sources_message">To finish updating, allow <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> to install app updates on the settings screen that opens. Android may restart the app when the permission is turned on. The downloaded update is kept and installation continues automatically.</string>
+    <string name="update_unknown_sources_message">To finish updating, allow <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> to install app updates on the settings screen that opens. Android may restart the app when the permission is turned on. The downloaded update is kept and installation continues automatically.</string>
 
     <!-- Button on the unknown-sources explainer that opens the system
          settings screen. -->
@@ -3330,9 +3330,9 @@
          Retryable. -->
     <string name="update_error_verification">The downloaded file couldn\'t be verified. Try again, or get the update from <xliff:g id="brand_github" example="GitHub">GitHub</xliff:g>.</string>
 
-    <!-- Failure body: the file isn't a PlayTranslate APK at all.
-         "PlayTranslate" is the app name; do not translate. -->
-    <string name="update_error_wrong_package">The downloaded file isn\'t a <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> update. Get the update from <xliff:g id="brand_github" example="GitHub">GitHub</xliff:g> instead.</string>
+    <!-- Failure body: the file isn't a Tashkeel Gamer APK at all.
+         "Tashkeel Gamer" is the app name; do not translate. -->
+    <string name="update_error_wrong_package">The downloaded file isn\'t a <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> update. Get the update from <xliff:g id="brand_github" example="GitHub">GitHub</xliff:g> instead.</string>
 
     <!-- Failure body: the downloaded APK's version isn't newer than the
          installed one (the system installer would reject the downgrade). -->
@@ -3357,8 +3357,8 @@
     <string name="update_none_title">No update found</string>
 
     <!-- Body of that alert. %1$s = the installed version (e.g. "2.4.1").
-         "PlayTranslate" is the app name; do not translate. -->
-    <string name="update_none_message"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> <xliff:g id="version" example="2.4.1">%1$s</xliff:g> is the latest version.</string>
+         "Tashkeel Gamer" is the app name; do not translate. -->
+    <string name="update_none_message"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> <xliff:g id="version" example="2.4.1">%1$s</xliff:g> is the latest version.</string>
 
     <!-- Title of the alert shown when a manual "Check for updates" couldn't
          reach the release server (offline, timeout, server error). -->
@@ -3386,18 +3386,18 @@
 
     <!-- Title of the floating-icon "Turn Off" confirmation dialog,
          single-screen / MediaProjection mode.  %1$s = app name. -->
-    <string name="overlay_turn_off_title">Turn Off <xliff:g id="app_name" example="PlayTranslate">%1$s</xliff:g>?</string>
+    <string name="overlay_turn_off_title">Turn Off <xliff:g id="app_name" example="Tashkeel Gamer">%1$s</xliff:g>?</string>
 
     <!-- Body of the same dialog (single-screen / MediaProjection). -->
-    <string name="overlay_turn_off_message">Turn back on in <xliff:g id="app_name" example="PlayTranslate">%1$s</xliff:g> app</string>
+    <string name="overlay_turn_off_message">Turn back on in <xliff:g id="app_name" example="Tashkeel Gamer">%1$s</xliff:g> app</string>
 
     <!-- Title of the floating-icon "Turn Off" confirmation dialog in
          accessibility + dual-screen mode (hide-for-now wording).
          %1$s = app name. -->
-    <string name="overlay_hide_controls_title">Hide <xliff:g id="app_name" example="PlayTranslate">%1$s</xliff:g> game screen controls?</string>
+    <string name="overlay_hide_controls_title">Hide <xliff:g id="app_name" example="Tashkeel Gamer">%1$s</xliff:g> game screen controls?</string>
 
     <!-- Body of the same dialog.  The curly quotes “…” are intentional. -->
-    <string name="overlay_hide_controls_message">“Hide for Now” brings it back next time you open <xliff:g id="app_name" example="PlayTranslate">%1$s</xliff:g>. “Turn Off” disables it until re-enabled in settings.</string>
+    <string name="overlay_hide_controls_message">“Hide for Now” brings it back next time you open <xliff:g id="app_name" example="Tashkeel Gamer">%1$s</xliff:g>. “Turn Off” disables it until re-enabled in settings.</string>
 
     <!-- "Hide for Now" button on the hide-controls dialog. -->
     <string name="overlay_hide_for_now">Hide for Now</string>
@@ -3583,102 +3583,102 @@
     </plurals>
 
     <!-- PLAYTRANSLATE CLOUD — the CONFIGURE cell and its page (Settings →
-         Configure → PlayTranslate Cloud). Debug builds only for now. The
+         Configure → Tashkeel Gamer Cloud). Debug builds only for now. The
          cell and the page title use pt_cloud_display_name_alpha, the brand
          with its alpha label; the sentences below take the bare brand,
          pt_cloud_display_name, as %1$s. -->
-    <!-- Subtitle of the PlayTranslate Cloud CONFIGURE cell while both of its
+    <!-- Subtitle of the Tashkeel Gamer Cloud CONFIGURE cell while both of its
          switches (OCR, translation) are off. -->
     <string name="settings_pt_cloud_summary_off">Off</string>
-    <!-- Subtitle of the PlayTranslate Cloud CONFIGURE cell while no client key is
+    <!-- Subtitle of the Tashkeel Gamer Cloud CONFIGURE cell while no client key is
          saved, and again while both of its switches (OCR, translation) are on
          with a key saved: a one-line pitch of the service, since the cell is the
          way to its page, where the member signs in. "Server-grade" means on
-         PlayTranslate's server rather than on the device. -->
+         Tashkeel Gamer's server rather than on the device. -->
     <string name="settings_pt_cloud_summary_pitch">Server-grade OCR and translation</string>
-    <!-- Subtitle of the PlayTranslate Cloud CONFIGURE cell while only its
+    <!-- Subtitle of the Tashkeel Gamer Cloud CONFIGURE cell while only its
          translation switch is on with a key saved: this device reads captures,
          the server translates. -->
     <string name="settings_pt_cloud_summary_translation_only">Translation only</string>
-    <!-- Subtitle of the PlayTranslate Cloud CONFIGURE cell while only its OCR
+    <!-- Subtitle of the Tashkeel Gamer Cloud CONFIGURE cell while only its OCR
          switch is on with a key saved: the server reads captures, the user's own
          translation services translate. -->
     <string name="settings_pt_cloud_summary_ocr_only">Server-grade OCR only</string>
-    <!-- Subtitle of the PlayTranslate Cloud CONFIGURE cell while the user is on
+    <!-- Subtitle of the Tashkeel Gamer Cloud CONFIGURE cell while the user is on
          the service's free trial.  %1$s = when the trial ends, already formatted
          for the user's locale: a time of day (e.g. 3:42 PM) when it ends within
          a day, else a short date (e.g. Nov 3). -->
     <string name="settings_pt_cloud_summary_trial">Free trial until <xliff:g id="end" example="Nov 3">%1$s</xliff:g></string>
-    <!-- Subtitle of the PlayTranslate Cloud CONFIGURE cell when the user's free
+    <!-- Subtitle of the Tashkeel Gamer Cloud CONFIGURE cell when the user's free
          trial has ended and no membership replaced it. -->
     <string name="settings_pt_cloud_summary_trial_ended">Trial ended</string>
-    <!-- Subtitle of the PlayTranslate Cloud CONFIGURE cell when the user's
+    <!-- Subtitle of the Tashkeel Gamer Cloud CONFIGURE cell when the user's
          account has no active membership (it lapsed, or there never was one). -->
     <string name="settings_pt_cloud_summary_inactive">Membership inactive</string>
-    <!-- Subtitle of the PlayTranslate Cloud CONFIGURE cell when the user has
+    <!-- Subtitle of the Tashkeel Gamer Cloud CONFIGURE cell when the user has
          not accepted the service's current terms of use and privacy notice,
          so the service is off until they read and accept them on its page.
          Not about payment or the membership. -->
     <string name="settings_pt_cloud_summary_terms_required">Terms not accepted</string>
-    <!-- Headline at the top of the PlayTranslate Cloud page while signed out,
+    <!-- Headline at the top of the Tashkeel Gamer Cloud page while signed out,
          in large bold type above the intro paragraph: what the service does.
          "Image processing" is reading the text in screenshots (OCR);
-         "server-grade" means done on PlayTranslate's server rather than on
+         "server-grade" means done on Tashkeel Gamer's server rather than on
          the device. -->
     <string name="pt_cloud_headline">Server-grade image processing and translation</string>
-    <!-- Paragraph under the headline at the top of the PlayTranslate Cloud
+    <!-- Paragraph under the headline at the top of the Tashkeel Gamer Cloud
          page while signed out, above the sign-in form: why the service
          exists. "Text recognition" is reading the text on the screen (OCR);
          "the work" is that reading and the translating. %1$s =
          pt_cloud_display_name, a product name. -->
-    <string name="pt_cloud_intro">The most accurate text recognition and translation models are too heavy to run on a mobile device. <xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g> runs them on a server instead, so you get better results and your device does none of the work.</string>
-    <!-- Group header above the PlayTranslate Cloud page's list of what the
+    <string name="pt_cloud_intro">The most accurate text recognition and translation models are too heavy to run on a mobile device. <xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g> runs them on a server instead, so you get better results and your device does none of the work.</string>
+    <!-- Group header above the Tashkeel Gamer Cloud page's list of what the
          service does (reading the screen, translating), in every state:
          signed out the list describes the service; signed in each row has a
          switch to turn that part on or off. Rendered ALL CAPS by the
          Text.PT.GroupHeader style; keep normal case here. -->
     <string name="pt_cloud_features_title">Features</string>
-    <!-- Title of the first row in the PlayTranslate Cloud page's feature list
+    <!-- Title of the first row in the Tashkeel Gamer Cloud page's feature list
          (a switch once signed in): screen captures read, that is OCR'd, on
-         PlayTranslate's server. "Image processing" is reading the text in
+         Tashkeel Gamer's server. "Image processing" is reading the text in
          the screenshots. -->
     <string name="pt_cloud_ocr_toggle_title">Powerful image processing</string>
-    <!-- Subtitle under "Powerful image processing" in the PlayTranslate Cloud
+    <!-- Subtitle under "Powerful image processing" in the Tashkeel Gamer Cloud
          page's feature list: what it gives. "Stronger OCR" is the server's
          larger text recognition model, run on the server's graphics card
          (GPU), so the device spends none of its own power on reading the
          text. -->
     <string name="pt_cloud_ocr_toggle_subtitle">Stronger OCR on a server GPU, without using your device\'s power.</string>
-    <!-- Title of the second row in the PlayTranslate Cloud page's feature
-         list (a switch once signed in): PlayTranslate's server translates
+    <!-- Title of the second row in the Tashkeel Gamer Cloud page's feature
+         list (a switch once signed in): Tashkeel Gamer's server translates
          the recognized text with paid translation models, ahead of the
          user's own translation services. -->
     <string name="pt_cloud_translate_toggle_title">Premium translations</string>
-    <!-- Subtitle under "Premium translations" in the PlayTranslate Cloud
+    <!-- Subtitle under "Premium translations" in the Tashkeel Gamer Cloud
          page's feature list: what it gives. The server holds subscriptions
          to several paid translation models and routes each request to the
          one suited to it. -->
     <string name="pt_cloud_translate_toggle_subtitle">Paid translation models bundled in, the best one picked for each job.</string>
-    <!-- Footnote under the PlayTranslate Cloud page's feature list while
+    <!-- Footnote under the Tashkeel Gamer Cloud page's feature list while
          signed out, beside a lock icon: the server does not keep the
          screenshots it reads or the text it translates, and does not sell
          them. -->
     <string name="pt_cloud_privacy_features">Screenshots and text are never stored or sold.</string>
-    <!-- Note under the PlayTranslate Cloud page's feature list, whose
+    <!-- Note under the Tashkeel Gamer Cloud page's feature list, whose
          switches are greyed out, while the user has not accepted the
          service's current terms of use and privacy notice: both features
          are off until they accept them. Not about payment. -->
     <string name="pt_cloud_features_paused_terms">Paused until the terms are accepted.</string>
-    <!-- Subtitle of the PlayTranslate Cloud row in the Capture &amp; overlay page's
+    <!-- Subtitle of the Tashkeel Gamer Cloud row in the Capture &amp; overlay page's
          OCR section, in every state of the switch: a one-line pitch of reading
-         the screen on PlayTranslate's server (no OCR work on the device). -->
+         the screen on Tashkeel Gamer's server (no OCR work on the device). -->
     <string name="pt_cloud_ocr_row_subtitle">Server-grade OCR, zero device load</string>
-    <!-- Status line of PlayTranslate Cloud's row on the Translation services page
+    <!-- Status line of Tashkeel Gamer Cloud's row on the Translation services page
          while no client key is saved, where the other rows read "Account required":
          a one-line pitch of the server's translation (paid models included in the
          service). -->
     <string name="pt_cloud_translate_row_subtitle_no_key">The best paid translation models, bundled in</string>
-    <!-- Title of the status row on the PlayTranslate Cloud page; its value is one
+    <!-- Title of the status row on the Tashkeel Gamer Cloud page; its value is one
          of the pt_cloud_status_* strings, the server's answer to a health check. -->
     <string name="pt_cloud_status_title">Service</string>
     <!-- Status row value: the server answered that it is ready. -->
@@ -3703,25 +3703,25 @@
     <string name="pt_cloud_status_checking">Checking</string>
     <!-- Status row value before any health check has run on this page. -->
     <string name="pt_cloud_status_unchecked">Not checked</string>
-    <!-- Group header above the account card on the PlayTranslate Cloud page
+    <!-- Group header above the account card on the Tashkeel Gamer Cloud page
          while signed in, where the user sees the state of the account (free
          trial, membership) and its email address. Rendered ALL CAPS by the
          Text.PT.GroupHeader style; keep normal case here. -->
     <string name="pt_cloud_account_title">Account</string>
-    <!-- Label above the email address field on the PlayTranslate Cloud
+    <!-- Label above the email address field on the Tashkeel Gamer Cloud
          account card. -->
     <string name="pt_cloud_email_label">Email address</string>
-    <!-- Placeholder inside the empty email address field on the PlayTranslate
+    <!-- Placeholder inside the empty email address field on the Tashkeel Gamer
          Cloud account card: an example address. example.com is a domain
          reserved for examples; keep it. -->
     <string name="pt_cloud_email_hint">you@example.com</string>
-    <!-- Button under the email address field on the PlayTranslate Cloud
+    <!-- Button under the email address field on the Tashkeel Gamer Cloud
          account card while signed out: asks the server to email a six-digit
          sign-in code to the address typed above, the first step of a free
          trial (an address that already has an account signs in the same
          way). %1$s = pt_cloud_display_name, a product name. -->
-    <string name="pt_cloud_free_trial">Try <xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g> for Free</string>
-    <!-- Line on the PlayTranslate Cloud account card after a sign-in code was
+    <string name="pt_cloud_free_trial">Try <xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g> for Free</string>
+    <!-- Line on the Tashkeel Gamer Cloud account card after a sign-in code was
          emailed. %1$s = the email address the code went to, as the user typed
          it; %2$d = how many minutes the code keeps working (usually 10). -->
     <plurals name="pt_cloud_code_sent_to">
@@ -3729,116 +3729,116 @@
         <item quantity="other">We sent a code to <xliff:g id="email" example="you@example.com">%1$s</xliff:g>. It works for <xliff:g id="minutes" example="10">%2$d</xliff:g> minutes.</item>
     </plurals>
     <!-- Label above the field where the user types the six-digit sign-in code
-         from the email, on the PlayTranslate Cloud account card. -->
+         from the email, on the Tashkeel Gamer Cloud account card. -->
     <string name="pt_cloud_code_label">Code</string>
-    <!-- Placeholder inside the empty sign-in code field on the PlayTranslate
+    <!-- Placeholder inside the empty sign-in code field on the Tashkeel Gamer
          Cloud account card: six X's, one per digit of the emailed code. Not a
          word, so it is not translated. -->
     <string name="pt_cloud_code_hint" translatable="false">XXXXXX</string>
-    <!-- Button under the sign-in code field on the PlayTranslate Cloud account
+    <!-- Button under the sign-in code field on the Tashkeel Gamer Cloud account
          card: sends the typed six-digit code to the server, which signs this
          device in and starts the free trial of a new account (an account that
          already exists is simply signed in). The keyboard's Done key does the
          same. -->
     <string name="pt_cloud_start_free_trial">Start Free Trial</string>
-    <!-- Button on the PlayTranslate Cloud account card after a code was sent:
+    <!-- Button on the Tashkeel Gamer Cloud account card after a code was sent:
          asks for another code (the one before it stops working). Enabled
          about a minute after the last code was sent. -->
     <string name="pt_cloud_send_new_code">Send a new code</string>
-    <!-- Button on the PlayTranslate Cloud account card after a code was sent:
+    <!-- Button on the Tashkeel Gamer Cloud account card after a code was sent:
          goes back to the email field to type another address. -->
     <string name="pt_cloud_change_email">Use a different email</string>
-    <!-- On the PlayTranslate Cloud account card, in place of the account's
+    <!-- On the Tashkeel Gamer Cloud account card, in place of the account's
          email address, when this device holds a client key given by hand,
          whose email address the app was never told: under the account's
          standing (Free trial until, Member until), or as the card's title
          when no standing is known. -->
     <string name="pt_cloud_signed_in_with_key">Signed in with a key</string>
-    <!-- Title of the PlayTranslate Cloud account card during the free trial,
+    <!-- Title of the Tashkeel Gamer Cloud account card during the free trial,
          above the account's email address. %1$s = when the trial ends: a
          date and time of day in the device's time zone, already formatted
          for the user's locale (e.g. Nov 3, 3:42 PM). -->
     <string name="pt_cloud_trial_until">Free trial until <xliff:g id="end" example="Nov 3, 3:42 PM">%1$s</xliff:g></string>
-    <!-- Title of the PlayTranslate Cloud account card while a paid
+    <!-- Title of the Tashkeel Gamer Cloud account card while a paid
          membership runs, above the account's email address. %1$s = when it
          ends: a date and time of day in the device's time zone, already
          formatted for the user's locale (e.g. Dec 5, 3:42 PM). -->
     <string name="pt_cloud_member_until">Member until <xliff:g id="end" example="Dec 5, 3:42 PM">%1$s</xliff:g></string>
-    <!-- Title of the PlayTranslate Cloud account card, above the account's
+    <!-- Title of the Tashkeel Gamer Cloud account card, above the account's
          email address, for a membership with no end date. -->
     <string name="pt_cloud_member">Member</string>
-    <!-- Title of the PlayTranslate Cloud account card, above the account's
+    <!-- Title of the Tashkeel Gamer Cloud account card, above the account's
          email address, after the free trial ran out. %1$s = the date it
          ended, already formatted for the user's locale (e.g. Nov 3, or Nov 3,
          2025 in another year). -->
     <string name="pt_cloud_trial_ended_on">Trial ended <xliff:g id="date" example="Nov 3">%1$s</xliff:g></string>
-    <!-- Title of the PlayTranslate Cloud account card, above the account's
+    <!-- Title of the Tashkeel Gamer Cloud account card, above the account's
          email address, after the free trial ran out, when the date it ended
          is not known. -->
     <string name="pt_cloud_trial_ended">Trial ended</string>
-    <!-- Title of the PlayTranslate Cloud account card, above the account's
+    <!-- Title of the Tashkeel Gamer Cloud account card, above the account's
          email address, after a paid membership ended. %1$s = the date it
          ended, already formatted for the user's locale (e.g. Nov 3, or Nov 3,
          2025 in another year). -->
     <string name="pt_cloud_inactive_since">Membership inactive since <xliff:g id="date" example="Nov 3">%1$s</xliff:g></string>
-    <!-- Title of the PlayTranslate Cloud account card, above the account's
+    <!-- Title of the Tashkeel Gamer Cloud account card, above the account's
          email address, when the account has no active membership and no end
          date is known (it may never have had one). -->
     <string name="pt_cloud_inactive">No active membership</string>
-    <!-- Title of the notice card at the top of the PlayTranslate Cloud page,
+    <!-- Title of the notice card at the top of the Tashkeel Gamer Cloud page,
          in the warning colour, when the user has not accepted the service's
          current terms of use and privacy notice (they are new, or they
          changed), so the service is off until they read and accept them.
          Not about payment or the membership. -->
     <string name="pt_cloud_terms_required">Terms not accepted</string>
-    <!-- Button on the PlayTranslate Cloud page's membership card after the
+    <!-- Button on the Tashkeel Gamer Cloud page's membership card after the
          free trial ended or the membership lapsed: asks the server again
          whether the account is active, for example right after paying. The
          description of a square icon chip (a sync glyph, no text), read by a
          screen reader, so it names the action. -->
     <string name="pt_cloud_check_again">Check again</string>
-    <!-- Hint on the PlayTranslate Cloud page's membership card, left of the
+    <!-- Hint on the Tashkeel Gamer Cloud page's membership card, left of the
          Check again chip, after the free trial ended or the membership
          lapsed: a payment made a moment ago reaches the account a few
          seconds later. -->
     <string name="pt_cloud_join_pending">Already joined? It can take a few seconds to process.</string>
     <!-- Line under "Terms not accepted" in the notice card at the top of the
-         PlayTranslate Cloud page, left of the Show terms button, while the
+         Tashkeel Gamer Cloud page, left of the Show terms button, while the
          user has not accepted the service's current terms of use and privacy
          notice: the service is off until they open the terms and accept
          them. %1$s = pt_cloud_display_name, a product name. -->
-    <string name="pt_cloud_terms_pending">Read and accept the terms to keep using <xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g>.</string>
-    <!-- Button in the notice card at the top of the PlayTranslate Cloud page,
+    <string name="pt_cloud_terms_pending">Read and accept the terms to keep using <xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g>.</string>
+    <!-- Button in the notice card at the top of the Tashkeel Gamer Cloud page,
          right of the line that asks the user to accept the terms: opens the
          service's terms of use and privacy notice to read and accept. Short:
          it is a small button beside the line. -->
     <string name="pt_cloud_show_terms">Show terms</string>
-    <!-- Label of the button on the PlayTranslate Cloud page's membership card
+    <!-- Label of the button on the Tashkeel Gamer Cloud page's membership card
          that opens the service's membership page on the Ko-fi website.
          %1$s = pt_cloud_display_name, a product name. -->
-    <string name="pt_cloud_join_title">Join <xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g></string>
-    <!-- Group header above the PlayTranslate Cloud page's membership card
+    <string name="pt_cloud_join_title">Join <xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g></string>
+    <!-- Group header above the Tashkeel Gamer Cloud page's membership card
          during the free trial: what to do for the service to keep working
          once the trial is over. Rendered ALL CAPS by the Text.PT.GroupHeader
          style; keep normal case here. -->
     <string name="pt_cloud_after_trial_title">After the trial</string>
-    <!-- Line on the PlayTranslate Cloud page's membership card during the
+    <!-- Line on the Tashkeel Gamer Cloud page's membership card during the
          free trial, above the Join button. Ko-fi is the name of the payment
          website, spelled as the brand spells it, and is not translated.
          %1$s = pt_cloud_display_name, a product name. -->
-    <string name="pt_cloud_join_nudge_trial">Add a Ko-fi membership to keep <xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g> going after the trial.</string>
-    <!-- Title of the PlayTranslate Cloud page's membership card after the
+    <string name="pt_cloud_join_nudge_trial">Add a Ko-fi membership to keep <xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g> going after the trial.</string>
+    <!-- Title of the Tashkeel Gamer Cloud page's membership card after the
          free trial ended or the membership lapsed, right under the feature
          list whose switches are greyed out. %1$s = pt_cloud_display_name, a
          product name. -->
-    <string name="pt_cloud_join_title_lapsed">Keep <xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g> going</string>
-    <!-- Line under pt_cloud_join_title_lapsed on the PlayTranslate Cloud
+    <string name="pt_cloud_join_title_lapsed">Keep <xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g> going</string>
+    <!-- Line under pt_cloud_join_title_lapsed on the Tashkeel Gamer Cloud
          page's membership card, above the Join button: "these features" are
          the two in the list right above the card (reading the screen,
          translating), which are off. Ko-fi is the name of the payment
          website, spelled as the brand spells it, and is not translated. -->
     <string name="pt_cloud_join_nudge_lapsed">Add a Ko-fi membership to turn these features back on.</string>
-    <!-- Centred line under the Join button on the PlayTranslate Cloud page's
+    <!-- Centred line under the Join button on the Tashkeel Gamer Cloud page's
          membership card: a payment reaches the account only when it is made
          with the account's email address. %1$s = that email address. -->
     <string name="pt_cloud_join_email_hint">Subscribe with <xliff:g id="email" example="you@example.com">%1$s</xliff:g> so it reaches this account automatically.</string>
@@ -3847,130 +3847,130 @@
          address. -->
     <string name="pt_cloud_join_email_hint_no_email">Subscribe with the email address your key belongs to so it reaches this account automatically.</string>
     <!-- Screen-reader label of the sign-out button beside the account on the
-         PlayTranslate Cloud account card (an icon with no text), which signs
+         Tashkeel Gamer Cloud account card (an icon with no text), which signs
          this device out after a confirmation; also the confirmation's
          button. -->
     <string name="pt_cloud_sign_out">Sign out</string>
     <!-- Title of the confirmation shown before signing this device out of
-         PlayTranslate Cloud. %1$s = pt_cloud_display_name, a product name. -->
-    <string name="pt_cloud_sign_out_title">Sign out of <xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g>?</string>
+         Tashkeel Gamer Cloud. %1$s = pt_cloud_display_name, a product name. -->
+    <string name="pt_cloud_sign_out_title">Sign out of <xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g>?</string>
     <!-- Message of the sign-out confirmation: only this device is signed out;
          the account itself and the user's other devices are not affected. -->
     <string name="pt_cloud_sign_out_message">This device forgets its key. Your account stays as it is, and you can sign in again with your email address.</string>
-    <!-- Error on the email field of the PlayTranslate Cloud account card (or a
+    <!-- Error on the email field of the Tashkeel Gamer Cloud account card (or a
          notice on the card) when the server did not accept the typed email
          address. -->
     <string name="pt_cloud_signin_bad_email">That doesn\'t look like an email address.</string>
-    <!-- Notice on the PlayTranslate Cloud account card when the server refused
+    <!-- Notice on the Tashkeel Gamer Cloud account card when the server refused
          a code request for now: too many requests from this network, or a
          code was already sent to this address a moment ago, which may already
          be in the inbox. -->
     <string name="pt_cloud_signin_rate_limited">Too many requests. If a code arrived, enter it below; otherwise send a new one in a minute.</string>
-    <!-- Notice on the PlayTranslate Cloud account card when this email address
+    <!-- Notice on the Tashkeel Gamer Cloud account card when this email address
          already had the most sign-in codes allowed for one day. -->
     <string name="pt_cloud_signin_too_many_codes">Too many codes sent to this address today. Try again tomorrow.</string>
-    <!-- Notice on the PlayTranslate Cloud account card when the service is
+    <!-- Notice on the Tashkeel Gamer Cloud account card when the service is
          offline and a new email address cannot get an account meanwhile
          (existing accounts can still sign in). %1$s = pt_cloud_display_name,
          a product name. -->
-    <string name="pt_cloud_signin_offline_new"><xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g> is offline right now, so a new account can\'t be made. Try again later.</string>
-    <!-- Notice on the PlayTranslate Cloud account card when the server could
+    <string name="pt_cloud_signin_offline_new"><xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g> is offline right now, so a new account can\'t be made. Try again later.</string>
+    <!-- Notice on the Tashkeel Gamer Cloud account card when the server could
          not send the email with the sign-in code. -->
     <string name="pt_cloud_signin_mail_failed">Couldn\'t send the email. Try again in a minute.</string>
-    <!-- Notice on the PlayTranslate Cloud account card when signing in cannot
+    <!-- Notice on the Tashkeel Gamer Cloud account card when signing in cannot
          be done right now: a temporary problem on the server, or a server
          that does not offer email sign-in yet. -->
     <string name="pt_cloud_signin_unavailable">Sign-in isn\'t available right now. Try again later.</string>
-    <!-- Notice on the PlayTranslate Cloud account card when the server could
+    <!-- Notice on the Tashkeel Gamer Cloud account card when the server could
          not be reached at all (no network, a timeout). %1$s =
          pt_cloud_display_name, a product name. -->
-    <string name="pt_cloud_signin_unreachable">Couldn\'t reach <xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g>. Make sure you\'re online and try again.</string>
-    <!-- Notice on the PlayTranslate Cloud account card when the account has
-         been disabled and cannot sign in. PlayTranslate is the app's name. -->
-    <string name="pt_cloud_signin_disabled">This account can\'t sign in. If you think that\'s a mistake, contact PlayTranslate support.</string>
-    <!-- Notice on the PlayTranslate Cloud account card when the server did not
+    <string name="pt_cloud_signin_unreachable">Couldn\'t reach <xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g>. Make sure you\'re online and try again.</string>
+    <!-- Notice on the Tashkeel Gamer Cloud account card when the account has
+         been disabled and cannot sign in. Tashkeel Gamer is the app's name. -->
+    <string name="pt_cloud_signin_disabled">This account can\'t sign in. If you think that\'s a mistake, contact Tashkeel Gamer support.</string>
+    <!-- Notice on the Tashkeel Gamer Cloud account card when the server did not
          accept the typed sign-in code (wrong, expired, or replaced by a newer
          one). -->
     <string name="pt_cloud_code_invalid">That code didn\'t work. It may be mistyped or expired. Check it, or send a new code.</string>
-    <!-- Notice on the PlayTranslate Cloud account card when the code is right
+    <!-- Notice on the Tashkeel Gamer Cloud account card when the code is right
          but the service is offline, so a new account can't be made yet; the
          same code can be tried again shortly. %1$s = pt_cloud_display_name, a
          product name. -->
-    <string name="pt_cloud_verify_offline"><xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g> is offline right now. Your code still works, so try again in a minute.</string>
-    <!-- Notice on the PlayTranslate Cloud account card when signing in worked
+    <string name="pt_cloud_verify_offline"><xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g> is offline right now. Your code still works, so try again in a minute.</string>
+    <!-- Notice on the Tashkeel Gamer Cloud account card when signing in worked
          but this device could not store its key securely, so the user has to
          ask for a new code. -->
     <string name="pt_cloud_key_not_stored">Couldn\'t store the key on this device. Send a new code.</string>
-    <!-- Note on the PlayTranslate Cloud account card, in place of the
+    <!-- Note on the Tashkeel Gamer Cloud account card, in place of the
          account's email address under its title, when the server could not
          be asked about the account just now; the title above it shows what
          was known last. -->
     <string name="pt_cloud_account_unchecked">Couldn\'t check the account just now.</string>
-    <!-- Notice above the sign-in form on the PlayTranslate Cloud account card
+    <!-- Notice above the sign-in form on the Tashkeel Gamer Cloud account card
          when the server stopped accepting this device's key (it was revoked,
          or the account was removed), so the device was signed out. -->
     <string name="pt_cloud_key_no_longer_accepted">This device\'s key is no longer accepted. Sign in again.</string>
-    <!-- Notice on the PlayTranslate Cloud page when the service's terms of
+    <!-- Notice on the Tashkeel Gamer Cloud page when the service's terms of
          use and privacy notice could not be fetched from its server just now
          (too many requests, or a temporary problem on the server), so they
          cannot be shown: under the sign-in button, or under the "Terms not
          accepted" notice card at the top of the page. -->
     <string name="pt_cloud_terms_unavailable">Couldn\'t load the terms. Try again in a minute.</string>
     <!-- Notice under the "Terms not accepted" notice card at the top of the
-         PlayTranslate Cloud page when the user agreed to the service's terms
+         Tashkeel Gamer Cloud page when the user agreed to the service's terms
          but its server could not record the agreement just now; the user can
          open the terms and agree again. -->
     <string name="pt_cloud_terms_not_recorded">Couldn\'t record your acceptance. Try again.</string>
-    <!-- Title of the card shown on the PlayTranslate Cloud page when the
+    <!-- Title of the card shown on the Tashkeel Gamer Cloud page when the
          service has shut down for good. %1$s = pt_cloud_display_name, a
          product name. -->
-    <string name="pt_cloud_closed_title"><xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g> has closed</string>
-    <!-- Text of the closed card on the PlayTranslate Cloud page when the
+    <string name="pt_cloud_closed_title"><xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g> has closed</string>
+    <!-- Text of the closed card on the Tashkeel Gamer Cloud page when the
          server gave no message of its own about the closing. -->
     <string name="pt_cloud_closed_default">The service isn\'t available any more.</string>
-    <!-- Privacy note at the bottom of the sign-in form on the PlayTranslate
+    <!-- Privacy note at the bottom of the sign-in form on the Tashkeel Gamer
          Cloud account card: what the email address is used for. -->
     <string name="pt_cloud_privacy_signin">Your email address is used to send you a sign-in code.</string>
-    <!-- Title of the page that shows PlayTranslate Cloud's terms of use and
+    <!-- Title of the page that shows Tashkeel Gamer Cloud's terms of use and
          its privacy notice, one text the user reads and agrees to before
          using the service; in the page's top bar. -->
     <string name="pt_cloud_terms_title">Terms and Privacy</string>
-    <!-- Button at the bottom of the PlayTranslate Cloud terms page: the user
+    <!-- Button at the bottom of the Tashkeel Gamer Cloud terms page: the user
          agrees to the terms of use and the privacy notice shown above it (a
          Cancel button is under it). Short: it fills a wide button. -->
     <string name="pt_cloud_terms_agree">Agree</string>
-    <!-- The sentence beside the agreement checkbox on the PlayTranslate Cloud
+    <!-- The sentence beside the agreement checkbox on the Tashkeel Gamer Cloud
          account card, between the email address field and the sign-in
          button: ticking the box is the user's agreement to the service's
          terms of use and privacy notice, which the sign-in button needs.
          %1$s = pt_cloud_terms_link, the words that open those terms to read
          (shown in the accent colour and tappable). -->
     <string name="pt_cloud_agree_terms">I agree to the <xliff:g id="terms" example="Terms and Privacy">%1$s</xliff:g></string>
-    <!-- The tappable words inside pt_cloud_agree_terms on the PlayTranslate
+    <!-- The tappable words inside pt_cloud_agree_terms on the Tashkeel Gamer
          Cloud account card: they open the page with the service's terms of
          use and privacy notice, which is titled pt_cloud_terms_title (the
          same words in English). A string of its own so the words can take
          the form the sentence needs. -->
     <string name="pt_cloud_terms_link">Terms and Privacy</string>
-    <!-- Read by screen readers on the agreement checkbox of the PlayTranslate
+    <!-- Read by screen readers on the agreement checkbox of the Tashkeel Gamer
          Cloud account card after the sign-in button was pressed with the box
          unticked: the box shows in the alert colour and nothing is sent. -->
     <string name="pt_cloud_agree_required">Agree to the terms to continue.</string>
     <!-- Screen-reader label of the strip at the top of the floating icon's quick
-         menu while PlayTranslate Cloud's OCR switch is on, when its wifi glyph
+         menu while Tashkeel Gamer Cloud's OCR switch is on, when its wifi glyph
          shows: the device is online and the next capture would be read on
-         PlayTranslate's server. %1$s = pt_cloud_display_name, a product name. -->
-    <string name="floating_menu_pt_cloud_available"><xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g>: available</string>
+         Tashkeel Gamer's server. %1$s = pt_cloud_display_name, a product name. -->
+    <string name="floating_menu_pt_cloud_available"><xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g>: available</string>
     <!-- Screen-reader label of the same strip when its wifi_off glyph shows: the
          device is offline, or the next capture would stay on this device (no
          key, a game language the server does not read, the service pausing
          after errors, or the service refusing the running auto-translate
          session). %1$s = pt_cloud_display_name, a product name. -->
-    <string name="floating_menu_pt_cloud_unavailable"><xliff:g id="service" example="PlayTranslate Cloud">%1$s</xliff:g>: unavailable</string>
+    <string name="floating_menu_pt_cloud_unavailable"><xliff:g id="service" example="Tashkeel Gamer Cloud">%1$s</xliff:g>: unavailable</string>
 
     <!-- YOMITAN — dictionary import page (Settings → Configure → Yomitan). -->
     <!-- Explainer paragraph at the top of the Yomitan page; also the empty state. -->
-    <string name="yomitan_page_description">Yomitan dictionaries are community-created dictionary files used by the Yomitan browser extension. Features include additional dictionaries, frequency data, and pitch accent. Import a dictionary (.zip) or a Yomitan dictionary collection export (.json) with the + button, and PlayTranslate will integrate it seamlessly throughout the app.</string>
+    <string name="yomitan_page_description">Yomitan dictionaries are community-created dictionary files used by the Yomitan browser extension. Features include additional dictionaries, frequency data, and pitch accent. Import a dictionary (.zip) or a Yomitan dictionary collection export (.json) with the + button, and Tashkeel Gamer will integrate it seamlessly throughout the app.</string>
     <!-- Warning subtitle on a dictionary row whose data was lost to an app update. -->
     <string name="yomitan_outdated_label">Needs re-importing after an app update. Tap to re-import its file.</string>
     <!-- Alert title after a Yomitan collection export imported at least one dictionary. -->
@@ -4157,7 +4157,7 @@
          rationale; "on this device" is the privacy statement. -->
     <string name="history_toggle_subtitle">Save captured sentences on this device</string>
     <!-- Empty-state body on the History screen when the master toggle is off (doubles as onboarding). -->
-    <string name="history_empty_off">Text history is off. Turn it on to keep the sentences <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> captures.</string>
+    <string name="history_empty_off">Text history is off. Turn it on to keep the sentences <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> captures.</string>
     <!-- Empty-state body on the History screen when the toggle is on but nothing is recorded yet. -->
     <string name="history_empty_none">Nothing here yet. Lines appear as they are translated.</string>
     <!-- Expanded-row action on the History screen: copy the entry to the clipboard. -->
@@ -4263,7 +4263,7 @@
 
     <!-- CAMERA TOOL — the live camera translation screen. -->
     <!-- Rationale shown on the camera screen before/after the CAMERA runtime permission ask. -->
-    <string name="camera_permission_rationale">PlayTranslate needs camera access to translate text you point it at. Images are processed on this device.</string>
+    <string name="camera_permission_rationale">Tashkeel Gamer needs camera access to translate text you point it at. Images are processed on this device.</string>
     <!-- Button that triggers the CAMERA runtime permission request. -->
     <string name="camera_permission_grant">Allow camera access</string>
     <!-- Shown when the CAMERA permission was permanently denied; the button below opens app settings. -->
@@ -4410,12 +4410,12 @@
          SETTINGS — Quick Settings tile row (Android 13+).
          ═══════════════════════════════════════════════════════════════ -->
 
-    <!-- Row title — adds the PlayTranslate tile to the system Quick
+    <!-- Row title — adds the Tashkeel Gamer tile to the system Quick
          Settings panel. -->
     <string name="quick_tile_add_row_title">Add Quick Settings tile</string>
 
     <!-- Subtitle on the same row. -->
-    <string name="quick_tile_add_row_subtitle">Toggle <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> from your status bar</string>
+    <string name="quick_tile_add_row_subtitle">Toggle <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> from your status bar</string>
 
     <!-- Subtitle once the tile has been added (the row shows a check). -->
     <string name="quick_tile_added_row_subtitle">Added to Quick Settings</string>
@@ -4535,7 +4535,7 @@
     <string name="settings_support_discord_subtitle">Get help and chat with other players.</string>
 
     <!-- Row title — donation link. -->
-    <string name="settings_support_donate_title">Support PlayTranslate</string>
+    <string name="settings_support_donate_title">Support Tashkeel Gamer</string>
 
     <!-- Subtitle on the donation row. -->
     <string name="settings_support_donate_subtitle">A free, open source labor of love. Help keep it going.</string>
@@ -4547,7 +4547,7 @@
     <string name="settings_support_keep_running_title">Fix disappearing icon</string>
 
     <!-- Subtitle under that row: the mechanism behind the symptom. -->
-    <string name="settings_support_keep_running_subtitle">Stop your phone from closing <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g></string>
+    <string name="settings_support_keep_running_subtitle">Stop your phone from closing <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g></string>
 
     <!-- Row title in Support: opens a pre-addressed email to the support
          address with recent logs and any crash files attached. Phrased as
@@ -4560,9 +4560,9 @@
     <string name="settings_support_report_bug_subtitle">Email logs to support. Hold to share instead.</string>
 
     <!-- Subject of the bug-report email. %1$s = the app version
-         (e.g. "2.2.0"). Mirrors crash_email_subject. "PlayTranslate" is the
+         (e.g. "2.2.0"). Mirrors crash_email_subject. "Tashkeel Gamer" is the
          app name; do not translate. -->
-    <string name="settings_support_report_bug_email_subject"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> bug report – v<xliff:g id="version" example="2.2.0">%1$s</xliff:g></string>
+    <string name="settings_support_report_bug_email_subject"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> bug report – v<xliff:g id="version" example="2.2.0">%1$s</xliff:g></string>
 
     <!-- Body of the bug-report email: a prompt the user answers above the
          attachment. -->
@@ -4578,19 +4578,19 @@
          ═══════════════════════════════════════════════════════════════ -->
 
     <!-- Alert title. -->
-    <string name="kill_notice_title">Android closed <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g></string>
+    <string name="kill_notice_title">Android closed <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g></string>
 
     <!-- Alert body when the system's exit record says low memory. -->
-    <string name="kill_notice_body_memory">Your phone ran low on memory and closed <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> while it was on. That is why the floating icon disappeared.</string>
+    <string name="kill_notice_body_memory">Your phone ran low on memory and closed <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> while it was on. That is why the floating icon disappeared.</string>
 
     <!-- Alert body for every other kind of kill (a ROM's battery or memory
          manager, a force stop). -->
-    <string name="kill_notice_body_other">Your phone closed <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> while it was on. That is why the floating icon disappeared. Some phones do this to save battery.</string>
+    <string name="kill_notice_body_other">Your phone closed <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> while it was on. That is why the floating icon disappeared. Some phones do this to save battery.</string>
 
     <!-- Alert body when the record says the package was force-stopped,
          which the user's own Settings force stop and a ROM's cleaner both
          produce: the sentence leaves the attribution to the user. -->
-    <string name="kill_notice_body_stopped"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> was stopped while it was on. If you did not stop it yourself, your phone\'s battery or memory manager may have. That is why the floating icon disappeared.</string>
+    <string name="kill_notice_body_stopped"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> was stopped while it was on. If you did not stop it yourself, your phone\'s battery or memory manager may have. That is why the floating icon disappeared.</string>
 
     <!-- Sentence appended to any body when the controls are already back
          (restored by the app before the user saw the alert). -->
@@ -4611,7 +4611,7 @@
     <string name="keep_running_title">Fix disappearing icon</string>
 
     <!-- One line under the title, before the cards. -->
-    <string name="keep_running_intro">These settings make it less likely that your phone closes <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> while you play.</string>
+    <string name="keep_running_intro">These settings make it less likely that your phone closes <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> while you play.</string>
 
     <!-- Centered label in the cards' place when every setting on the page
          is already made: nothing left to recommend, so it points at the
@@ -4630,7 +4630,7 @@
          Android 12+ and "Not optimized" on 10 and 11
          (manager_battery_usage_unrestricted_title, high_power_on), so
          neither label is quoted. Hidden once held. -->
-    <string name="keep_running_battery_title">Let <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> always run in the background</string>
+    <string name="keep_running_battery_title">Let <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> always run in the background</string>
 
     <!-- Line under the battery card. A verified effect: the exemption lets
          Android's own restart of the killed service promote to the
@@ -4638,7 +4638,7 @@
          2026-10-06, commit 08be2403; Moto G pass 2026-10-07: icon back
          about 36 s after a kill while locked, and without the exemption
          only at the next app open). -->
-    <string name="keep_running_battery_line">If your phone closes <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g>, this lets it start again on its own.</string>
+    <string name="keep_running_battery_line">If your phone closes <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g>, this lets it start again on its own.</string>
 
     <!-- Card title: enable the accessibility service (the "Enhanced
          auto-translate" mode). Hidden once enabled and bound. -->
@@ -4649,7 +4649,7 @@
          MediaProjection backend (Moto G 2025 and the Thor), and the Moto's
          low-memory kill wave of 2026-10-05 stopped above 100. On Android
          13+ AccessibilityHelp appends a11y_restricted_settings_addendum. -->
-    <string name="keep_running_accessibility_line">Runs <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> with the priority of an accessibility service, which memory cleanups rarely reach.</string>
+    <string name="keep_running_accessibility_line">Runs <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> with the priority of an accessibility service, which memory cleanups rarely reach.</string>
 
     <!-- Line under the accessibility card when the service is enabled in
          Settings but Android has not bound it (a kill whose restart was
@@ -4662,7 +4662,7 @@
     <!-- Line under the tile card. No tap count is promised: on the
          MediaProjection backend the tap is followed by the system's
          screen-capture consent. -->
-    <string name="keep_running_tile_line">Turns <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> back on from any screen.</string>
+    <string name="keep_running_tile_line">Turns <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> back on from any screen.</string>
 
     <!-- Toast shown when a card's own settings screen cannot be opened and
          the app's App info page opens instead; the card title names the
@@ -4683,7 +4683,7 @@
          switch governs starting in the background by its own description
          ("allowed to start in background", the DriveQuant guides); no
          source states what happens without it. -->
-    <string name="keep_running_xiaomi_autostart_line">In Settings, search for autostart and allow it for <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g>. Without it, Xiaomi may keep <xliff:g id="app_name2" example="PlayTranslate">PlayTranslate</xliff:g> from starting again after closing it.</string>
+    <string name="keep_running_xiaomi_autostart_line">In Settings, search for autostart and allow it for <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g>. Without it, Xiaomi may keep <xliff:g id="app_name2" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> from starting again after closing it.</string>
 
     <!-- Xiaomi card: the per-app battery entry, whose "No restrictions"
          option is the one constant. The entry is "Battery saver" on MIUI
@@ -4698,7 +4698,7 @@
     <string name="keep_running_xiaomi_battery_title">Set battery use to No restrictions</string>
 
     <!-- Line under the Xiaomi battery card: where the entry is, by version. -->
-    <string name="keep_running_xiaomi_battery_line">In <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g>\'s app settings, open the battery entry (Battery saver, Battery or Power, depending on your version) and choose No restrictions.</string>
+    <string name="keep_running_xiaomi_battery_line">In <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g>\'s app settings, open the battery entry (Battery saver, Battery or Power, depending on your version) and choose No restrictions.</string>
 
     <!-- Xiaomi card, instructions only (no screen to open): lock the app's
          card in the Recents screen. Gesture: touch and hold the card, then
@@ -4706,10 +4706,10 @@
          some versions lock on pulling the card down (dontkillmyapp.com/xiaomi,
          secondary). No source states what locking spares the app from, so
          the line claims nothing. -->
-    <string name="keep_running_xiaomi_lock_title">Lock <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> in Recents</string>
+    <string name="keep_running_xiaomi_lock_title">Lock <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> in Recents</string>
 
     <!-- Line under the Xiaomi lock card: the gesture. -->
-    <string name="keep_running_xiaomi_lock_line">Open Recents, hold the <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> card and tap the lock. On some versions, pull the card down instead.</string>
+    <string name="keep_running_xiaomi_lock_line">Open Recents, hold the <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> card and tap the lock. On some versions, pull the card down instead.</string>
 
     <!-- Huawei / Honor card: the "App launch" screen, where an app goes
          from "Manage automatically" to three manual switches. Labels and
@@ -4719,7 +4719,7 @@
     <string name="keep_running_huawei_app_launch_title">Manage App launch manually</string>
 
     <!-- Line under the Huawei App launch card: the path, then the switches. -->
-    <string name="keep_running_huawei_app_launch_line">In Settings, search for App launch, turn off Manage automatically for <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g>, then turn on Auto-launch, Secondary launch and Run in background.</string>
+    <string name="keep_running_huawei_app_launch_line">In Settings, search for App launch, turn off Manage automatically for <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g>, then turn on Auto-launch, Secondary launch and Run in background.</string>
 
     <!-- OPPO / realme / OnePlus card. "Auto-launch apps" under Phone
          Manager > Privacy permissions, and Settings > Battery > App battery
@@ -4731,7 +4731,7 @@
     <string name="keep_running_oppo_auto_launch_title">Allow auto-launch and background activity</string>
 
     <!-- Line under the OPPO card. The effect is hedged; no source states it. -->
-    <string name="keep_running_oppo_auto_launch_line">In Settings, search for auto-launch and allow it for <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g>, then in its battery settings allow background activity. Without these, the phone may stop <xliff:g id="app_name2" example="PlayTranslate">PlayTranslate</xliff:g> in the background or keep it from starting again.</string>
+    <string name="keep_running_oppo_auto_launch_line">In Settings, search for auto-launch and allow it for <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g>, then in its battery settings allow background activity. Without these, the phone may stop <xliff:g id="app_name2" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> in the background or keep it from starting again.</string>
 
     <!-- vivo / iQOO card. "Autostart" (in iManager, or Settings > More
          settings > Applications on newer versions) and Settings > Battery >
@@ -4742,7 +4742,7 @@
     <string name="keep_running_vivo_autostart_title">Allow autostart and background power use</string>
 
     <!-- Line under the vivo card. The effect is hedged; no source states it. -->
-    <string name="keep_running_vivo_autostart_line">In Settings, search for Autostart and allow it for <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g>, then in the Battery settings allow it high background power use. Without these, the phone may stop <xliff:g id="app_name2" example="PlayTranslate">PlayTranslate</xliff:g> in the background or keep it from starting again.</string>
+    <string name="keep_running_vivo_autostart_line">In Settings, search for Autostart and allow it for <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g>, then in the Battery settings allow it high background power use. Without these, the phone may stop <xliff:g id="app_name2" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> in the background or keep it from starting again.</string>
 
     <!-- Samsung card: the "Never sleeping apps" list under "Background
          usage limits" in the Battery settings (samsung.com/us ANS00088422,
@@ -4759,7 +4759,7 @@
          alarms and foreground services restricted; support page:
          never-sleeping apps "will never turn off or sleep in the
          background"). -->
-    <string name="keep_running_samsung_never_sleeping_line">In the Battery settings, under Background usage limits, add <xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> to Never sleeping apps. Samsung puts apps it has not seen used for a few days to sleep and limits what they can do in the background.</string>
+    <string name="keep_running_samsung_never_sleeping_line">In the Battery settings, under Background usage limits, add <xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> to Never sleeping apps. Samsung puts apps it has not seen used for a few days to sleep and limits what they can do in the background.</string>
 
     <!-- Row title — manual update check (first row of the Support section). -->
     <string name="settings_support_check_updates_title">Check for updates</string>
@@ -4837,7 +4837,7 @@
 
     <!-- Share-sheet subject when the user holds Report a bug to send the
          logs somewhere other than email. -->
-    <string name="settings_debug_export_logs_subject"><xliff:g id="app_name" example="PlayTranslate">PlayTranslate</xliff:g> logs</string>
+    <string name="settings_debug_export_logs_subject"><xliff:g id="app_name" example="Tashkeel Gamer">Tashkeel Gamer</xliff:g> logs</string>
 
     <!-- Error toast shown if log export failed. %1$s = exception
          class name (e.g. "FileNotFoundException"). -->

@@ -20,7 +20,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.playtranslate"
+        applicationId = "com.existentialjuice.tashkeelgamer"
         minSdk = 29
         targetSdk = 36
         versionCode = 23
