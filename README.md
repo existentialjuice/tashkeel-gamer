@@ -1,79 +1,98 @@
-# PlayTranslate
+# Tashkeel Gamer
 
-<!-- l10n-header -->
-<div align="center">
+An Android screen translator for games, visual novels, manga, and other on-screen text.
 
-English | [简体中文](./readme/README.zh-CN.md) | [繁體中文](./readme/README.zh-HK.md) | [Español](./readme/README.es.md) | [العربية](./readme/README.ar.md) | [Français](./readme/README.fr.md) | [Português (Brasil)](./readme/README.pt-BR.md) | [Русский](./readme/README.ru.md) | [Deutsch](./readme/README.de.md) | [日本語](./readme/README.ja.md) | [Türkçe](./readme/README.tr.md) | [Tiếng Việt](./readme/README.vi.md) | [한국어](./readme/README.ko.md) | [ไทย](./readme/README.th.md)
+**Tashkeel Gamer** is a community fork of [PlayTranslate](https://github.com/dominostars/playtranslate). It adds Arabic tashkeel (diacritical marks) to Arabic translations using a local [Text2Tashkeel](https://github.com/TigreGotico/text2tashkeel) service.
 
-[![Downloads](https://img.shields.io/github/downloads/dominostars/playtranslate/total)](https://github.com/dominostars/playtranslate/releases)
-[![Stars](https://img.shields.io/github/stars/dominostars/playtranslate?style=flat)](https://github.com/dominostars/playtranslate/stargazers)
-![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?logo=android&logoColor=white)
-[![License](https://img.shields.io/github/license/dominostars/playtranslate)](https://github.com/dominostars/playtranslate/blob/main/LICENSE)
+[![Android](https://img.shields.io/badge/Android-10%2B-3DDC84?logo=android&logoColor=white)](https://www.android.com/)
+[![License](https://img.shields.io/github/license/existentialjuice/tashkeel-gamer)](LICENSE)
 
-</div>
-<!-- /l10n-header -->
+## Screenshots
 
-Real-time translation and language learning Android app for games, visual novels, manga, and any other screen text. Supports 26 game languages and 59 user languages!
+### Dual-screen Final Fantasy IV gameplay
 
-[Download the latest release by clicking here](../../releases/latest)
-
-To report issues, receive support, or make requests, please join the [Discord server](https://discord.gg/DVCj6p7MUC)
-
-[PlayTranslate with Persona 3 Reload](https://github.com/user-attachments/assets/e89c2c6e-92f3-41d2-8e51-5483beaca612)
+![Tashkeel Gamer running alongside Final Fantasy IV](docs/images/ff4-dual-screen.jpg)
 
 ## Features
 
-- **One-tap Translation**: Capture the game screen and translate the text on it with one tap
-- **Auto Translation Mode**: Automatically translates as dialogue changes, no tapping required
-- **Word lookup**: Hover the floating lens over any word for immediate dictionary definitions
-- **Offline**: OCR and dictionary lookups work without an internet connection, with optional offline translation models
-- **Furigana/Pinyin Mode**: Show reading hints above characters in real time
-- **Hotkeys**: Configure a physical key to hold-to-preview translations or furigana, great for handhelds with dedicated buttons
-- **Dual Screen & Split Screen**: Works across both screens on dual-display devices like the Ayn Thor, or in Android split-screen alongside windowed games
-- **Capture regions**: Crop to just the dialogue box, subtitles, or any custom area
-- **Text-to-speech**: Hear text spoken aloud. Change the default voice in settings
-- **Anki export**: Save sentences to AnkiDroid with the original text, translation, word list, target words, text-to-speech, and a screenshot. Even record and include game audio! Card type selection with presets for popular decks.
-- **Yomitan integration**: Yomitan dictionaries seamlessly integrate, including pitch accent, frequency chips, kanji enrichment, and merged term definitions everywhere (incl. Anki). Look for deeper integration in the future
-- **Camera translation**: Point your camera at text in the world and read it live, or freeze a frame to tap words and look them up.
-- **Text History**: Keep a record of captured sentences. Off by default.
+- **Arabic Tashkeel:** Adds Arabic diacritical marks to translated Arabic text through a local Text2Tashkeel server.
+- **One-tap Translation:** Capture game text and translate it with one tap.
+- **Auto Translation Mode:** Automatically translates dialogue as it changes.
+- **Word Lookup:** Look up individual words using the floating lens.
+- **Dual Screen & Split Screen:** Use the translator alongside games on dual-display devices or in Android split-screen.
+- **Capture Regions:** Select the dialogue box, subtitles, or another screen area.
+- **Text-to-Speech:** Listen to translated text.
+- **Anki Export:** Save sentences and vocabulary for language learning.
+- **Yomitan Integration:** Use compatible dictionaries and lookup features.
+- **Camera Translation:** Translate text captured by the camera.
+- **Text History:** Keep a record of captured sentences.
 
-## How to Install
+Some inherited PlayTranslate features may depend on device compatibility and app settings.
+## Installing the Android App
 
-1. [Download the latest release by clicking here](../../releases/latest)
-2. On your Android, allow your browser or file manager to install unknown apps: open **Settings → Apps → Special app access → Install unknown apps**, pick the app, and turn on **Allow from this source**. Android also offers to take you there when you first open the APK
-3. Open the APK and tap Install
-4. On first launch, follow the onboarding steps to grant the necessary permissions
+1. Open the [Tashkeel Gamer GitHub Actions page](https://github.com/existentialjuice/tashkeel-gamer/actions).
+2. Open the latest successful Android debug build.
+3. Download the `tashkeel-gamer-debug-apk` artifact.
+4. Extract the downloaded artifact and install the APK on your Android device.
+5. If Android asks, allow your browser or file manager to install unknown apps.
+6. Open Tashkeel Gamer and complete the permission setup.
 
-### Won't install?
+## Setting Up the Arabic Tashkeel Server
 
-On some Android devices, **Google Play Protect** blocks sideloaded APKs and shows a vague "App not installed" or "harmful app" warning. If that happens, temporarily disable the scanner:
+The Arabic tashkeel feature uses a separate Python server running locally on the same Android device as Tashkeel Gamer.
 
-1. Open the **Play Store**
-2. Tap your **profile icon** (top right)
-3. Tap **Play Protect**
-4. Tap the **gear icon** (top right)
-5. Turn off **Scan apps with Play Protect**
+You will need [Termux](https://github.com/termux/termux-app).
 
-Install the APK, then re-enable Play Protect afterward to keep scanning your other apps.
+### 1. Install the required packages
 
-### Can't enable accessibility?
+```bash
+pkg update -y
+pkg install python curl -y
+python -m pip install flask
+python -m pip install --pre text2tashkeel
 
-A few advanced features (like hotkey hold-to-preview) will prompt you to enable accessibility permissions. On Android 13 and later, Android greys out the accessibility switch for any app installed from a downloaded APK, and tapping it shows a "Restricted setting" message. To unblock it:
+```
 
-1. In **Settings → Accessibility**, select PlayTranslate and tap the greyed-out switch once. Close the "Restricted setting" message.
-2. Open the App Info page: **Settings → Apps → PlayTranslate**.
-3. Tap the **⋮** menu and choose **Allow restricted settings**. This item only appears after step 1.
-4. Authenticate if prompted, then go back to Accessibility and turn the switch on.
+### 2. Download the Tashkeel server
 
-## Support
+```bash
+curl -fL "https://raw.githubusercontent.com/existentialjuice/tashkeel-gamer/main/server/tashkeel_server.py" -o ~/tashkeel_server.py
+```
 
-To report issues, receive support, or make requests, please join the [Discord server](https://discord.gg/DVCj6p7MUC)
+### 3. Create a startup command
 
-You can support PlayTranslate on Ko-fi at https://ko-fi.com/playtranslate
+```bash
+mkdir -p ~/bin
+cat > ~/bin/starttashkeel <<'EOF'
+#!/data/data/com.termux/files/usr/bin/bash
+python "$HOME/tashkeel_server.py"
+EOF
+chmod +x ~/bin/starttashkeel
+```
+
+### 4. Start the server
+
+Whenever you want to use Arabic tashkeel, open Termux and run:
+
+```bash
+~/bin/starttashkeel
+```
+
+Keep Termux running while using Tashkeel Gamer. The server listens only on the device's localhost address (`127.0.0.1:8765`), so it is intended for the app on the same device.
+
+### Troubleshooting
+
+- If Arabic translations appear without tashkeel, make sure the Termux server is running.
+- If Termux reports that `text2tashkeel` is missing, repeat the package installation commands above.
+- If the server stops, run `~/bin/starttashkeel` again.
+
+## Project Attribution
+
+Tashkeel Gamer is a community fork of PlayTranslate. It retains the upstream project's translation engine and inherited features while adding a local Arabic tashkeel step. Please see the Credits and License sections below for upstream acknowledgements and licensing.
 
 ## Supported Languages
 
-PlayTranslate translates from **26 game languages** (the text it can read off the screen) into **59 translation languages** (the language shown to you). Both tables are sorted by total worldwide speakers.
+The inherited PlayTranslate translation engine supports **26 game languages** (the text it can read off the screen) into **59 translation languages** (the language shown to you). Both tables are sorted by total worldwide speakers.
 
 ### Game languages (read from the screen)
 
